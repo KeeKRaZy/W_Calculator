@@ -1,0 +1,115 @@
+/* fotochki */
+.about{
+	width: 100%;
+	padding: 40px 0px;
+	background-color:rgb(37, 37, 37);
+}
+/* otstup ot foto */
+.about-text{
+	width: 250px;
+}
+
+/* knopka "download" */
+button{
+	background-color:rgb(37, 37, 37);
+	color: white;
+	font-size: 20px;
+	border: 9px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 6px;
+	transition: .4s; 
+	margin: 20px 180% 20px;
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	cursor: pointer;
+}
+/* fotochki */
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin-left: 5%;
+	display: flex;
+	justify-content: space-around;
+}
+
+/* Why our programm */
+.service{
+	background:  rgb(55, 55, 55);
+	width: 100%;
+	padding: 20px 0px;
+}
+.title h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+/* easy-simple-fast */
+.stroki{
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	min-height: 260px;
+	margin-top: 3%;
+	color: white;
+	font-size: 40px;
+	margin-bottom: 15px;
+	line-height: 70px;
+}
+
+#stroka1{
+	margin-left: 650px;;
+}
+
+#stroka2{
+	margin-left: 200px;;
+}
+
+/*БУТТОН ↓ */
+
+/*дизайн More*/
+  span {
+    color: #ffffff;
+    font-size: 35px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    padding: 20px;
+  }
+/*дизайн оболочки текста*/
+  .popup .menu {
+    width: 70%;
+    height: 100%;
+    padding: 50px 0;
+	padding-left: 550px;
+  }
+/*открытие-закрытие*/
+  .popup.open {
+    display: flex;
+
+  }
+  .popup {
+	display: none;
+	transition: 0.3s;
+	
+  }
+  /*teskt*/
+  ul li p{ 
+	color: white;
+	transition: .4s ;
+	font-size: 25px;
+	line-height: 30px;
+	cursor: pointer;
+	text-align: center;
+  }
+
+  html {
+	scroll-behavior: smooth;
+  }
+  span a{
+	padding-left: 650px;
+	text-decoration: none;
+  }

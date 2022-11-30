@@ -1,0 +1,46 @@
+#rectanglino {
+	margin-top: 12px;
+	margin-left: 330px;
+	right: 500%;
+	width: 50%;
+	height: 470px;
+	background: rgb(55, 55, 55);
+  }
+  
+ #rectanglo {
+	margin-left: 330px;
+	right: 500%;
+	width: 50%;
+	height: 80px;
+	background: rgb(55, 55, 55);
+	text-align:center;
+  }
+
+#teksto  {
+	font-size: 32px;
+	color: rgba(255, 255, 255, 0.8);
+	padding-top: 23px;
+	line-height: 65px;
+  }
+#vername {
+	position: absolute;
+	margin-left: 50px;
+}
+
+#verdate {
+	position: absolute;
+	margin-left: 438px;
+}
+
+#verdownl {
+	position: absolute;
+	margin-left: 650px;
+}
+
+ins h2 a:hover{
+	font-size: 33px;
+}
+
+#verdownl a:hover{
+	font-size: 33px;
+}

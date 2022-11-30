@@ -1,0 +1,163 @@
+/* container for images*/
+.wrapper-gallery {
+    margin: 0 15vw;
+    height: 680px;
+}
+
+#index-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 15px;
+    grid-template-areas: 
+    "gallery-p gallery-p gallery-p gallery-p"
+    "gallery-h2 gallery-h2 gallery-h2 gallery-h2"
+    "img1 img2 img4 img3"
+    "img5 img6 img7 img3";
+}
+
+#index-gallery .galllery-img {
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor:pointer;
+}
+
+.prod_obolochki_gallery{
+	height: 75vh;
+	width: 100%;
+	background-color: rgb(37, 37, 37);
+	font-size: 23px;
+	color: white;
+	padding-left: 160px;
+	line-height: 300px;
+}
+
+#index-gallery p {
+    grid-area: gallery-p;
+}
+#index-gallery h2 {
+    grid-area: gallery-h2;
+}
+
+/* images */
+
+#index-gallery .img1 {
+    grid-area: img1;
+    background-image: url("../img/img1.jpg");
+}
+#index-gallery .img2 {
+    grid-area: img2;
+    background-image: url("../img/img2.jpg");
+    background-position: top;
+}
+#index-gallery .img3 {
+    grid-area: img3;
+    background-image: url("../img/img3.jpg");
+    height: 650px;
+}
+#index-gallery .img4 {
+    grid-area: img4;
+    background-image: url("../img/img4.jpg");
+}
+#index-gallery .img5 {
+    grid-area: img5;
+    background-image: url("../img/img5.jpg");
+}
+#index-gallery .img6 {
+    grid-area: img6;
+    background-image: url("../img/img6.jpg");
+    background-position: left;
+}
+#index-gallery .img7 {
+    grid-area: img7;
+    background-image: url("../img/img7.jpg");
+    background-position: right;
+}
+
+/* chernen'koe open */
+.gallery-img div {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-img p {
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.gallery-img p:hover {
+    color: rgb(255, 221, 252)!important;;
+	transition: .4s;
+}
+
+.gallery-img div:hover {
+    opacity: 0.8;
+    transition: all ease-in-out 100ms;
+}
+
+/*Popup window*/
+
+.img-window {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 111;
+}
+
+.img-window img {
+    max-height: 80vh;
+    max-width: 80vw;
+}
+
+/*button Next*/
+
+.img-btn-next{
+    display: block;
+    padding: 6px 10px;
+    border-radius: 4px;
+    border-color: black;
+    position: fixed;
+    top: 48vh;
+    z-index: 500;
+    color: antiquewhite;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.img-btn-next:hover{
+    opacity: 0.8;
+}
+
+/*button Prev*/
+
+.img-btn-prev{
+    display: block;
+    padding: 6px 10px;
+    border-radius: 4px;
+    border-color: black;
+    position: fixed;
+    top: 48vh;
+    z-index: 500;
+    color: antiquewhite;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.img-btn-prev:hover{
+    opacity: 0.8;
+}
