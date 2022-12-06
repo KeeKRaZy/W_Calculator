@@ -53,7 +53,6 @@ nav ul li a:hover{
 	transition: .4s ;
 	font-size: 17px;
 }
-
 .content{
 	position: absolute;
 	top: 20%;
@@ -69,7 +68,9 @@ h3{
 	font-size: 25px;
 	margin-bottom: 50px;
 }
-
+h4{
+	padding: 10px 15px;
+}
 footer{
 	position: relative;
 	width: 100%;
@@ -139,7 +140,12 @@ h1{
 }
 #loginis{
 	color: white;
-	margin: 10px 250% 40%;
+	margin: 10px 280% 40%;
+	font-size: 90px;
+}
+#signupis{
+	color: white;
+	margin: 10px 225% 100px;
 	font-size: 90px;
 }
 

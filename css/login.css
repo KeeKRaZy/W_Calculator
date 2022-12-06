@@ -1,0 +1,53 @@
+#loginform{
+    width: 100%;
+    display: flex;
+	flex-direction: column;
+    padding-left: 27%;
+}
+input{
+    border-color: white;
+    border-radius: 3px;
+    font-size: 20px;
+    padding-left: 40px;
+}
+#mail{
+    height: 60px;
+    width: 600px;
+}
+#parole{
+    height: 60px;
+    width: 450px;
+}
+span {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+p {
+    position: absolute;
+    width: 20%;
+    font-size: 25px;
+}
+#logbut{
+    margin-left: 490px;
+    height: 45px;
+    width: 100px;
+    border-color: white;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: 0.3s;
+    color: rgb(48, 48, 48);
+}
+#logbut:hover{
+    height: 48px;
+    width: 103px;
+    font-size: 21px;
+    transition: 0.3s;
+    color: rgb(1, 59, 66)!important;
+}
+a{
+    color: aqua;
+}
+span input{
+    transform:scale(1.2);
+}
+
