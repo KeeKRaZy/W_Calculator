@@ -148,6 +148,11 @@ h1{
 	margin: 10px 225% 100px;
 	font-size: 90px;
 }
+#instructions{
+	color: white;
+	margin: 10px 140% 100px;
+	font-size: 90px;
+}
 
 
 h4{
@@ -164,4 +169,11 @@ a {
 a:hover {
 	color: rgb(255, 235, 253)!important;;
 	transition: .4s;
+}
+
+#instr{
+	position:absolute;
+	height: 50px;
+	margin-left: 1099px;
+	margin-top: 25px
 }
