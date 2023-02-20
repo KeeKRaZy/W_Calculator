@@ -23,3 +23,25 @@ window.onload = () => {
     }
 }
 
+
+// Show Password
+
+var parole = document.getElementById('parole');
+var passconfirm = document.getElementById('confirm');
+
+function ShowPassword() {
+    if (parole.getAttribute('type')=='password') {
+        parole.type='text'
+    } else {parole.type='password'};
+}
+
+// Show Password and Password Confirm
+
+function ShowAllPasswords() {
+    if (parole.getAttribute('type')=='password') {
+        parole.type='text'
+        passconfirm.type='text'
+    } else {
+        parole.type='password'
+        passconfirm.type='password'};
+}

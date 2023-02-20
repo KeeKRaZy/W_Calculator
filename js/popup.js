@@ -33,4 +33,3 @@ links.forEach((link) => {
 function closeOnClick() {
   popup.classList.remove("open");
 }
-

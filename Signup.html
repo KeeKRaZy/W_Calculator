@@ -10,7 +10,7 @@
 </head>
 <body>
 
-	<div class="transition transition-2 is-active"></div>
+	<div class="transition transition-1 is-active"></div> 
 
 	<div class="obolochka" id="beginning">
 		<li></li>
@@ -45,11 +45,11 @@
 					  <div> 
 						<input type="password" name="parole" id="parole" required placeholder="Enter your password"><input type="password" name="confirm" id="confirm" required placeholder="Confirm">
 					  </div>
-					  <span> <input type="checkbox" onclick=""> Show Password </span> 
+					  <span> <input type="checkbox" onclick="ShowAllPasswords();"> Show Password </span> 
 					  <br><br>
 					  <div>
 						<p>If you already have an account, you can <a href="Login.html">Sign In</a></p>
-						<button id="logbut">Sign Up</button>
+						<button onclick="alert('\n You can\'t sign up while \n data base is not connected')" id="logbut">Sign Up</button>
 					  </div>
 				  </form>	
 	</div>
