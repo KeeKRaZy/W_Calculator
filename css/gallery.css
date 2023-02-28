@@ -45,33 +45,40 @@
 /* images */
 
 #index-gallery .img1 {
+    border: 1px solid #ffffff;
     grid-area: img1;
     background-image: url("../img/img1.jpg");
 }
 #index-gallery .img2 {
+    border: 1px solid #ffffff;
     grid-area: img2;
     background-image: url("../img/img2.jpg");
     background-position: top;
 }
 #index-gallery .img3 {
+    border: 1px solid #ffffff;
     grid-area: img3;
     background-image: url("../img/img3.jpg");
     height: 650px;
 }
 #index-gallery .img4 {
+    border: 1px solid #ffffff;
     grid-area: img4;
     background-image: url("../img/img4.jpg");
 }
 #index-gallery .img5 {
+    border: 1px solid #ffffff;
     grid-area: img5;
     background-image: url("../img/img5.jpg");
 }
 #index-gallery .img6 {
+    border: 1px solid #ffffff;
     grid-area: img6;
     background-image: url("../img/img6.jpg");
     background-position: left;
 }
 #index-gallery .img7 {
+    border: 1px solid #ffffff;
     grid-area: img7;
     background-image: url("../img/img7.jpg");
     background-position: right;

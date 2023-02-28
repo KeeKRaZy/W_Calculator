@@ -45,3 +45,4 @@ function ShowAllPasswords() {
         parole.type='password'
         passconfirm.type='password'};
 }
+

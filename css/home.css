@@ -113,3 +113,9 @@ button:hover{
 	padding-left: 650px;
 	text-decoration: none;
   }
+
+.main img{
+	height: 650px;
+	border: 2px solid #ffffff;
+	margin-left: 10px;
+  }
