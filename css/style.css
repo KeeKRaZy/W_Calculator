@@ -177,3 +177,10 @@ a:hover {
 	margin-left: 1099px;
 	margin-top: 25px
 }
+
+#instr:hover{
+	position:absolute;
+	height: 53px;
+	margin-left: 1099px;
+	margin-top: 25px
+}
