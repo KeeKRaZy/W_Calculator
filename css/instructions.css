@@ -82,7 +82,7 @@ h5 {
 	margin-top: 25px;
 	margin-left: 355px;
 	width: 780px;
-	height: 1150px;
+	height: 1020px;
 	background: rgb(129, 129, 129);
 	transition: .4s;
 }
@@ -136,5 +136,21 @@ h5 {
 	font-size: 27px;
 	text-align: left;
 	font-weight: 400;
-	line-height: 85%;
+}
+
+#poloska6{
+	margin-top: 25px;
+	margin-left: 355px;
+	width: 780px;
+	height: 440px;
+	background: rgb(129, 129, 129);
+	transition: .3s;
+}
+
+#polosa6{
+	margin-left: 355px;
+	width: 680px;
+	height: 2px;
+	background: rgb(223, 217, 217);
+	transition: .3s;
 }
